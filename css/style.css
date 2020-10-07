@@ -33,3 +33,32 @@ body{
 }
 
 /* NEEDS */
+
+/* SERVERS */
+
+#servers{
+  background-color: #0033af;
+  color: white;
+}
+
+/* FEEDBACK */
+
+#feedback{
+  background-color: lightgrey;
+}
+
+.square{
+  background-color: white;
+  Width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* START */
+
+#start{
+  background-color: #0033af;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,35 @@
+body{
+  padding-top: 65px;
+}
+
+.debug [class*="col-"]{
+  border: 1px solid black;
+}
+
+.navbar [class*="col-"]{
+  height: 65px;
+}
+
+
+.my_jumbotron{
+  background-color: #004aff;
+  margin-bottom: 0;
+}
+
+/* CUSTOMERS */
+
+#customers{
+  background-color: lightgrey;
+}
+
+/* PROCESS */
+
+
+/* DESIGNED */
+
+#designed{
+  background-color: lightgrey;
+  text-align: center;
+}
+
+/* NEEDS */

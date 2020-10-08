@@ -61,6 +61,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0;
+  padding-bottom: 60px;
   color: white;
 }
 
@@ -85,20 +86,20 @@ body{
   left: 2%;
 }
 
-.my_jumbotron [class*="col-"]:last-child{
+.card{
   background-color: white;
   border-radius: 5px;
   text-align: center;
+  padding: 30px 15px;
 }
 
 .my_jumbotron [class*="col-"]:last-child p{
   color: black;
   font-size: 1.2rem;
-  margin-bottom: 30px;
 }
 
 .my_jumbotron h1{
-  font-weight: 700;
+  font-size: 55px;
 }
 
 .my_jumbotron .h3-blue{
@@ -106,11 +107,8 @@ body{
 }
 
 .my_form button:last-child{
-  margin: 10px 0;
-}
-
-.my_jumbotron h3:first-child{
-  margin-top: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 
@@ -294,7 +292,7 @@ body{
 }
 
 #feedback a{
-  color: #08a9c9;
+  color: #004aff;
 }
 
 #feedback .circles{
@@ -327,7 +325,7 @@ body{
 }
 
 .my_btn_start{
-  color: #0033af;
+  color: #004aff;
   margin-top: 10px;
 }
 

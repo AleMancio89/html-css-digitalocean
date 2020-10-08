@@ -337,6 +337,30 @@ body{
 footer{
   background-color: #031c4e;
   color: white;
+  padding: 55px 0;
+}
+
+footer p{
+  color: lightgrey;
+}
+
+footer i{
+  margin-right: 5px;
+  color: lightgrey;
+}
+
+footer .col-xs-12:first-of-type{
+  margin-bottom:20px;
+}
+
+.copy{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.born{
+  font-size: 1.2rem;
+  color: grey;
 }
 
 
@@ -350,6 +374,10 @@ footer{
 
  [class*="slider"] i {
    display: none;
+ }
+
+ footer .col-xs-12:first-of-type{
+   margin-bottom:20px;
  }
 
 }

@@ -323,6 +323,12 @@ body{
   background-color: #0033af;
   text-align: center;
   color: white;
+  padding: 55px 0;
+}
+
+.my_btn_start{
+  color: #0033af;
+  margin-top: 10px;
 }
 
 

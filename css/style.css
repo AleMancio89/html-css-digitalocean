@@ -8,7 +8,43 @@ body{
 
 .navbar [class*="col-"]{
   height: 65px;
+  line-height: 65px;
 }
+
+.navbar img{
+  max-height: 2.5rem;
+  line-height: 65px;
+}
+
+.navbar span{
+  color: #2a8afd;
+  float: right;
+  line-height: 65px;
+  font-size: 1.5rem;
+}
+
+.navbar li{
+  display:inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+.navbar ul span{
+    color: black;
+}
+
+.my_nav_dx{
+  float:right;
+}
+
+.my_btn_sign_up{
+  border: 1px solid #004aff;
+  color: #004aff;
+}
+
+
+
 
 
 .my_jumbotron{
@@ -68,4 +104,5 @@ body{
 
 footer{
   background-color: #031c4e;
+  color: white;
 }

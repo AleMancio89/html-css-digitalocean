@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Digital Ocean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -43,12 +44,25 @@
       <div class="jumbotron my_jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-6">
-              TITOLO
-              SOTTOTITOLO
+            <div class="col-xs-12 col-md-7 col-lg-7">
+              <h1>The simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrstructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
             </div>
-            <div class="col-xs-12 col-md-6">
-              FORM
+            <div class="col-xs-12 col-md-5 col-lg-5">
+              <h3 class="h3-black">Deploy your app in seconds.</h3>
+              <h3 class="h3-blue">Get started now.</h3>
+              <form class="my_form">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="my_btn_account btn btn-primary">Create your account</button>
+                <button type="submit" class="my_bth_google btn btn-primary"><img src="img/google-mini-logo.png" alt="Google">Sign up with google</button>
+              </form>
+              <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
+
             </div>
 
 
@@ -61,69 +75,69 @@
 
     </header>
 
-    <main class="debug">
+    <main class="">
     <!-- Customer Logoes list -->
       <section id="customers">
         <div class="container">
           <p>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</p>
           <div class="row">
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="Docker">
+              <img src="img/docker.png" alt="Docker">
             </div>
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="GitLab">
+              <img src="img/gitlab.png" alt="GitLab">
             </div>
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="Slack">
+              <img src="img/slack.png" alt="Slack">
             </div>
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="HashiCorp">
+              <img src="img/hashi.png" alt="HashiCorp">
             </div>
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="HashiCorp">
+              <img src="img/wework.png" alt="Wework">
             </div>
             <div class="col-xs-6 col-md-2">
-              <img src="" alt="Splunk">
+              <img id="splunk" src="img/splunk.png" alt="Splunk">
             </div>
 
           </div>
-          <a href="#">View customer stories</a>
+          <p><a href="#">View customer stories &gt;</a></p>
         </div>
       </section>
     <!-- Deploy section with list -->
       <section id="process">
         <div class="container">
           <h2>Deploy and scale seamlessly</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+          <p>Our optimized configuration process saves your team time when running and scaling distribuited applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           <div class="row">
-            <div class="col-xs-12 col-md-offset-1 col-md-3">
+            <div class="col-xs-12 col-md-offset-1 col-md-3 col-lg-3">
               <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+                <li>Deploy</li>
+                <li>Manage</li>
+                <li>Secure</li>
+                <li>Scale</li>
+                <li>Monitor</li>
               </ul>
             </div>
-            <div class="col-xs-12 col-md-3">
-              <img src="" alt="Drops">
-              <h3>Titolo piccolo</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+              <img src="img/boatwheel.svg" alt="Boatwheel">
+              <h4>Cluster deployments</h4>
+              <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
             </div>
-            <div class="col-xs-12 col-md-3">
-              <img src="" alt="Drop">
-              <h3>Titolo piccolo</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+              <img src="img/box-drop.svg" alt="Drop">
+              <h4>Optimized compute types</h4>
+              <p>Get the compute resources you need with Standard or Optimized Droplets</p>
             </div>
-            <div class="col-xs-12 col-md-offset-4 col-md-3">
-              <img src="" alt="File">
-              <h3>Titolo piccolo</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-xs-12 col-md-offset-4 col-md-3 col-lg-3">
+              <img src="img/file.svg" alt="File">
+              <h4>One-click apps</h4>
+              <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
             </div>
-            <div class="col-xs-12 col-md-3">
-              <img src="" alt="World">
-              <h3>Titolo piccolo</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-xs-12 col-md-3 col-lg-3">
+              <img src="img/drop.svg" alt="Drop">
+              <h4>Global availability</h4>
+              <p>Deploy to any of our data center regions around the world.</p>
             </div>
           </div>
         </div>

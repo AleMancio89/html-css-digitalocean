@@ -1,6 +1,17 @@
 body{
   padding-top: 65px;
+  font-family: 'Roboto', sans-serif;
 }
+
+
+.h3-black{
+  color: black;
+}
+
+.h3-blue{
+  color: #004aff;
+}
+
 
 .debug [class*="col-"]{
   border: 1px solid black;
@@ -31,7 +42,7 @@ body{
 }
 
 .navbar ul span{
-    color: black;
+  color: black;
 }
 
 .my_nav_dx{
@@ -43,22 +54,123 @@ body{
   color: #004aff;
 }
 
-
-
-
+/* JUMBO */
 
 .my_jumbotron{
-  background-color: #004aff;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 0;
+  color: white;
 }
+
+.my_btn_account{
+  width: 100%;
+}
+
+.my_bth_google{
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.my_form{
+  position: relative;
+}
+
+
+.my_bth_google img{
+  height: 20px;
+  position:absolute;
+  left: 2%;
+}
+
+.my_jumbotron [class*="col-"]:last-child{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.my_jumbotron [class*="col-"]:last-child p{
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.my_jumbotron h1{
+  font-weight: 700;
+}
+
+.my_jumbotron .h3-blue{
+  margin-top: 10px;
+}
+
+.my_form button:last-child{
+  margin: 10px 0;
+}
+
+.my_jumbotron h3:first-child{
+  margin-top: 40px;
+}
+
 
 /* CUSTOMERS */
 
 #customers{
   background-color: lightgrey;
+  text-align: center;
+}
+
+#customers [class*="col-"] img{
+  height: 77px;
+}
+
+#splunk{
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+
+#customers p:first-child{
+  color: grey;
+  margin-top: 64px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+#customers p:last-child{
+  margin-top: 25px;
+  margin-bottom: 64px;
+  font-size: 2rem;
+  color: #004aff;
 }
 
 /* PROCESS */
+#process {
+  margin: 64px 0;
+}
+
+
+#process .container > h2{
+  text-align: center;
+}
+
+#process .container > p {
+ text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+
+
+#process li{
+  list-style-type: none;
+  border-left: 2px solid lightgrey;
+  padding: 10px;
+}
+
 
 
 /* DESIGNED */
@@ -105,4 +217,47 @@ body{
 footer{
   background-color: #031c4e;
   color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+ #process ul{
+   padding-left: 0px;
+ }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .my_jumbotron h1{
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  #process ul{
+    padding-left: 0px;
+  }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+  .my_jumbotron h1{
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  #process [class*="col-"]{
+    height: 180px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  #process [class*="col-"]{
+    height: 180px;
+  }
+
 }

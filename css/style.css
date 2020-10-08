@@ -117,7 +117,7 @@ body{
 /* CUSTOMERS */
 
 #customers{
-  background-color: lightgrey;
+  background-color: #f4f5f9;
   text-align: center;
 }
 
@@ -152,6 +152,7 @@ body{
 
 #process .container > h2{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #process .container > p {
@@ -159,7 +160,6 @@ body{
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
   margin-bottom: 60px;
 }
 
@@ -176,32 +176,146 @@ body{
 /* DESIGNED */
 
 #designed{
-  background-color: lightgrey;
+  background-color: #f4f5f9;
   text-align: center;
 }
 
+#designed h2{
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+#designed img{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+.slider i:first-child{
+  opacity: 0.7;
+  position: relative;
+  top: 50px;
+  right: 20px;
+}
+
+.slider i:nth-of-type(2){
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+
+.circles{
+  color: #004aff;
+  margin-bottom: 64px;
+}
+
+
+
 /* NEEDS */
+
+#needs{
+  margin: 64px 0;
+}
+
+#needs h2{
+  text-align: center;
+}
+
+#needs img{
+  margin-top:20px;
+}
+
+#needs a{
+  color: #0033af;
+}
 
 /* SERVERS */
 
 #servers{
   background-color: #0033af;
   color: white;
+  padding: 64px 0;
+}
+
+#servers h2{
+  text-align: center;
+}
+
+#servers a{
+  color: #08a9c9;
+}
+
+#servers [class*="col-"] .row:not(:last-of-type){
+  border-bottom: 1px solid white;
+
+}
+
+#servers [class*="col-"] .row{
+  padding-top: 10px;
+
+}
+
+#servers p{
+  color: lightgrey;
 }
 
 /* FEEDBACK */
 
 #feedback{
-  background-color: lightgrey;
+  background-color: #f4f5f9;
+  text-align: center;
+}
+
+#feedback h2{
+  margin: 64px 0;
 }
 
 .square{
   background-color: white;
-  Width:80%;
+  Width:60%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 50px;
+  display: inline-block;
 }
+
+#feedback img{
+  max-width: 200px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.square p:last-of-type{
+  margin-bottom: 40px;
+}
+
+#feedback a{
+  color: #08a9c9;
+}
+
+#feedback .circles{
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+.slider_feedback i:first-child{
+  opacity: 0.7;
+  position: relative;
+  right:20px;
+  bottom: 80px;
+}
+
+.slider_feedback i:nth-of-type(2){
+  position: relative;
+  left:20px;
+  bottom: 80px;
+}
+
+
 
 /* START */
 
@@ -227,6 +341,11 @@ footer{
    padding-left: 0px;
  }
 
+
+ [class*="slider"] i {
+   display: none;
+ }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -237,6 +356,10 @@ footer{
 
   #process ul{
     padding-left: 0px;
+  }
+
+  [class*="slider"] i {
+    display: none;
   }
 
 }
@@ -260,4 +383,7 @@ footer{
     height: 180px;
   }
 
+  #servers [class*="col-"] .row{
+    margin-left: 15px;
+  }
 }

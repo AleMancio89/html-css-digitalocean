@@ -342,6 +342,16 @@ footer p{
   color: lightgrey;
 }
 
+footer ul{
+  padding: 0;
+}
+
+footer li, footer a{
+  list-style-type: none;
+  color: lightgrey;
+  margin-bottom: 10px;
+}
+
 footer i{
   margin-right: 5px;
   color: lightgrey;
